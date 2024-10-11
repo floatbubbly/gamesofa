@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>玩命槍戰 驚爆盃</title>
+<link href="css/aim_champion.css" rel="stylesheet" type="text/css" />
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="https://g.mwsrv.com/index/css/GamesofaNav.css" rel="stylesheet" type="text/css">
+
+<link href="https://g.mwsrv.com/styles/footer.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+<!-- topmenu start -->
+<div id="GamesofaNav">
+  <div class="GamesofaNavBG">
+    	<div class="GamesofaNavBox"> <a class="Gamesofa_Logo" href="http://www.gamesofa.com/">Gamesofa</a>
+      	<p class="Slogan">５分鐘，霸樂最輕鬆！</p>
+      	<div class="NavMenu"> <a title="加入最愛，紅利入袋" class="Loved" target="_blank" href="/bigad/addmylove/">加入最愛，紅利入袋</a> <a title="安裝桌面捷徑" class="Quick" target="_blank" href="/bigad/install2/">安裝桌面捷徑</a> <a title="更多遊戲" class="Btn_MoreGame" id="goAllGameList" href="#h_gamelist_tit">更多遊戲</a> </div>
+      	<!-- MoreGame start -->
+      	<div class="MoreGame">
+            <div class="GameBox">
+          		<div class="colum">
+	                <h3>PC 版棋牌類</h3>
+	                <ul>
+		              <li><a class="tax9" href="/texas/">神來也德州撲克</a></li>
+		              <li><a class="big2" href="/bigtwo/">神來也大老2</a></li>
+		              <li><a class="landlord" href="/landlord/">神來也鬥地主</a></li>
+		              <li><a class="poker13" href="/13poker/">神來也13支</a></li>
+		              <li><a class="seven" href="/sevens/">神來也接龍</a></li>
+		              <li><a class="bigwod" href="/bigtwod/">神來也鋤大D</a></li>
+		              <li><a class="tax4" href="/texas4/">神來也4人德州撲克</a></li>
+		              <li><a class="mj2" href="/mj2/">神來也二人麻將</a></li>
+		            </ul>
+              	</div>
+          	<div class="colum">
+                <h3>PC 版麻將類</h3>
+                <ul>
+	              <li><a class="mj16" href="/mj/">神來也16張也麻將</a></li>
+	              <li><a class="mj13" href="/13mj/">神來也13張麻雀</a></li>
+	            </ul>
+                <h3 class="LastH3">休閒類行動版</h3>
+                <ul>
+	              <li><a class="gunsrush" href="/gunsrush/">即刻槍戰</a></li>
+	              <li><a class="bigpk" href="/bigpk/">大武鬥</a></li>
+	            </ul>
+            </div>
+          	<div class="colum">
+                <h3>MOBILE 版</h3>
+                <ul>
+	              <li><a class="mj16" href="/mjapp/">神來也16張也麻將</a></li>
+	              <li><a class="mj13" href="/13mjapp/">神來也13張麻雀</a></li>
+	              <li><a class="tax9" href="/texasapp/">神來也德州撲克</a></li>
+	              <li><a class="big2" href="/bigtwoapp/">神來也大老2</a></li>
+	              <li><a class="landlord" href="/landlordapp/">神來也鬥地主</a></li>
+	              <li><a class="poker13" href="/13pokerapp/">神來也13支</a></li>
+	              <li><a class="seven" href="/sevensapp/">神來也接龍</a></li>
+	              <li><a class="bigwod" href="/bigtwodapp/">神來也鋤大D</a></li>
+	              <li><a class="blinkchess" href="/blindchessapp/">神來也暗棋</a></li>
+	              <li><a class="renju" href="/renjuapp/">神來也五子棋</a></li>
+	              <li><a class="mj2" href="/mj2app/">神來也二人麻將</a></li>
+	            </ul>
+           	</div>
+          	<a onclick="return topmenu_show_list(1);" class="Btn_Close" href="#"></a> </div>
+          </div>
+	      <!-- MoreGame End --> 
+	    </div>
+	</div>
+</div>
+<!--topmenu end --> 
+<div class="Wrapper">
+	<!-- MainKV start -->
+	<div id="container">
+		<canvas id="pixie"></canvas>
+	</div>
+	<div class="MainKV">
+		<div class="Arrow animated infinite bounce"></div>
+		<!-- Menu start -->
+		<div class="Menu">
+			<ul>
+				<li><a href="index.html" class="M1"></a></li>
+				<li><a href="reward.html" class="M2 focus"></a></li>
+				<li><a href="ranking.html" class="M3"></a></li>
+				<li><a href="notice.html" class="M4"></a></li>
+			</ul>
+		</div>
+		<!-- Menu End -->
+	</div>
+	<!-- MainKV End -->
+	
+	<!-- BlockInformation start -->
+	<div class="BlockInformation">
+		<h2 class="Page_Title"><img src="images/page_title_2.png"></h2>
+		<div class="Page_Info">
+			<h3 class="Topic">自由賽</h3>
+			<img src="images/img_reward_normal.png" class="RewardImg">
+			<h3 class="Topic">經典賽</h3>
+			<img src="images/img_reward_classic.png" class="RewardImg">
+			<h3 class="Topic">任務獎勵</h3>
+			
+
+			
+
+			
+			<div class="RewardList">
+				<div class="RewardGroup GameNormal">
+					<a href="#" data-role="popover" data-target="example-popover">
+					<h4>自由賽圍觀者</h4>
+					<p>每天打一場驚爆盃自由賽預賽</p>
+					<img src="images/item_0051.png">
+					<div class="TagGroup">
+						<span class="tag">每日重置</span>
+						<span class="i">i</span>
+					</div>
+					<span class="RewardName">自由轉蛋武器箱 (1天)</span>
+					</a>
+				</div>
+				<div class="RewardGroup GameNormal">
+					<a href="#">
+					<h4>自由賽忠誠者</h4>
+					<p>每天累計參加驚爆盃自由賽預賽30分鐘</p>
+					<img src="images/item_0048.png">
+					<div class="TagGroup">
+						<span class="tag">每日重置</span>
+						<span class="i">i</span>
+					</div>
+					<span class="RewardName">自由人物造型箱 (1天)</span>
+					</a>
+				</div>
+				<div class="RewardGroup GameNormal">
+					<h4>自由賽積極者</h4>
+					<p>驚爆盃自由賽預賽個人積分達50分</p>
+					<img src="images/item_all.png">
+					<div class="TagGroup">
+						<span class="tag">限領一次</span>
+					</div>
+					<span class="RewardName">犀牛CMFs防具全套 (1天)</span>
+				</div>
+				<div class="RewardGroup GameNormal">
+					<h4>自由賽熱衷者</h4>
+					<p>累計三天，每天打一場驚爆盃自由賽預賽<span class="tiny">（不需連續）</span></p>
+					<img src="images/item_0008.png">
+					<div class="TagGroup">
+						<span class="tag">限領一次</span>
+					</div>
+					<span class="RewardName">翻牌銀幣加成 I (1天)</span>
+				</div>
+				<div class="RewardGroup GameNormal">
+					<h4>自由賽狂熱者</h4>
+					<p>累計五天，每天打一場驚爆盃自由賽預賽</p>
+					<img src="images/item_key_01.png">
+					<div class="TagGroup">
+						<span class="tag">限領一次</span>
+					</div>
+					<span class="RewardName">晶片 × 5</span>
+				</div>
+			
+			</div>
+			<span class="popover-wrapper">
+			<a href="#" class="PopLink" data-role="popover" data-target="example-popover"></a>
+			<div class="popover-modal example-popover">
+		    	<div class="popover-header">自由轉蛋武器箱(1天)
+		      		<a href="#" data-toggle-role="close" style="float: right">×</a>
+		    	</div>
+		    	<div class="popover-body popover-body-padded">
+		      		<p class="boxText">開啟後從下列道具隨機獲得三把不同類型武器：AK47風馳電掣(1天)、M4A1王者巨猩(1天)、AWP生自無常(1天)、AWP XMAS(1天)、UZI死亦無常(1天)、MP7A1災禍森蚺(1天)</p>
+		      		<img src="images/pop_1.png">
+		    	</div>
+		  	</div>
+			</span>
+
+			<span class="popover-wrapper popwrap2">
+			<a href="#" class="PopLink" data-role="popover" data-target="example-popover2"></a>
+			<div class="popover-modal example-popover2">
+		    	<div class="popover-header">自由人物造型箱 (1天)
+		      		<a href="#" data-toggle-role="close" style="float: right">×</a>
+		    	</div>
+		    	<div class="popover-body popover-body-padded">
+		      		<p class="boxText">開啟後從下列道具隨機獲得一項：<br/>
+尼克斯(1天)、札克(1天)、夏(1天)、伊莉雅(1天)</p>
+		      		<img src="images/pop_2.png">
+		    	</div>
+		  	</div>
+			</span>
+
+		<div class="RewardList">
+			<div class="RewardGroup GameClassic">
+					<a href="#">
+					<h4>經典賽圍觀者</h4>
+					<p>每天打一場驚爆盃經典賽預賽</p>
+					<img src="images/item_0052.png">
+					<div class="TagGroup">
+						<span class="tag">每日重置</span>
+						<span class="i">i</span>
+					</div>
+					<span class="RewardName">經典轉蛋武器箱 (1天)</span>
+					</a>
+				</div>
+				<div class="RewardGroup GameClassic">
+					<a href="#">
+					<h4>經典賽忠誠者</h4>
+					<p>每天累計參加驚爆盃經典賽預賽30分鐘</p>
+					<img src="images/item_0045.png">
+					<div class="TagGroup">
+						<span class="tag">每日重置</span>
+						<span class="i">i</span>
+					</div>
+					<span class="RewardName">經典人物造型箱 (1天)</span>
+					</a>
+				</div>
+				<div class="RewardGroup GameClassic">
+					<h4>經典賽積極者</h4>
+					<p>驚爆盃經典賽預賽個人積分達50分</p>
+					<img src="images/item_all.png">
+					<div class="TagGroup">
+						<span class="tag">限領一次</span>
+					</div>
+					<span class="RewardName">犀牛CMFs防具全套 (1天)</span>
+				</div>
+				<div class="RewardGroup GameClassic">
+					<h4>經典賽熱衷者</h4>
+					<p>累計三天，每天打一場驚爆盃經典賽預賽<span class="tiny">（不需連續）</span></p>
+					<img src="images/item_0008.png">
+					<div class="TagGroup">
+						<span class="tag">限領一次</span>
+					</div>
+					<span class="RewardName">翻牌銀幣加成 I (1天)</span>
+				</div>
+				<div class="RewardGroup GameClassic">
+					<h4>經典賽狂熱者</h4>
+					<p>累計五天，每天打一場驚爆盃經典賽預賽</p>
+					<img src="images/item_key_01.png">
+					<div class="TagGroup">
+						<span class="tag">限領一次</span>
+					</div>
+					<span class="RewardName">晶片 × 5</span>
+				</div>
+			</div>
+		</div>
+		<span class="popover-wrapper">
+			<a href="#" class="PopLink" data-role="popover" data-target="example-popover3"></a>
+			<div class="popover-modal example-popover3">
+		    	<div class="popover-header">經典轉蛋武器箱 (1天)
+		      		<a href="#" data-toggle-role="close" style="float: right">×</a>
+		    	</div>
+		    	<div class="popover-body popover-body-padded">
+		      		<p class="boxText">開啟後從下列道具隨機獲得三把不同類型武器：AK-12 吳剛伐桂(1天)、M16 XMAS(1天)、Remington 血祭盛宴(1天)、XM500 后羿射日(1天)、KRISS Vector 玉兔神話(1天)、MP7A1 XMAS(1天)</p>
+		      		<img src="images/pop_3.png">
+		    	</div>
+		  	</div>
+			</span>
+
+			<span class="popover-wrapper popwrap2">
+			<a href="#" class="PopLink" data-role="popover" data-target="example-popover4"></a>
+			<div class="popover-modal example-popover4">
+		    	<div class="popover-header">經典人物造型箱 (1天)
+		      		<a href="#" data-toggle-role="close" style="float: right">×</a>
+		    	</div>
+		    	<div class="popover-body popover-body-padded">
+		      		<p class="boxText">開啟後從下列道具隨機獲得一項：<br/>
+卡爾(1天)、特洛伊(1天)、夏(1天)、伊莉雅(1天)</p>
+		      		<img src="images/pop_4.png">
+		    	</div>
+		  	</div>
+			</span>
+		</div>
+	</div>
+	<!-- BlockInformation End -->
+
+	<!--span class="popover-wrapper">
+  		<a href="#" data-role="popover" data-target="example-popover">Open</a>
+  		<div class="popover-modal example-popover">
+    		<div class="popover-header">Title
+      			<a href="#" data-toggle-role="close" style="float: right">×</a>
+    		</div>
+    		<div class="popover-body popover-body-padded">
+      			<div>Hi</div>
+    		</div>
+  		</div>
+</span-->
+
+</div>
+<!-- footer start -->
+<div id="footer">
+	<div class="FooterBox">
+      <ul>
+        <li><a href="http://www.gamesofa.com/mj//?op=report" class="mail" rel="nofollow"></a> </li>
+        <li><a href="http://www.gamesofa.com/mj//?op=private" class="privacy" rel="nofollow"></a> </li>
+        <li><a href="http://www.gamesofa.com/index/?op=gamerules" class="gamerule" rel="nofollow"></a> </li>
+        <li><a href="http://www.gamesofa.com/index/?op=aboutus" class="aboutus"></a> </li>
+        <li><a href="http://www.gamesofa.com/index/?op=jobs" class="joinus" target="_blank"></a> </li>
+    </ul>
+    <p>慧邦科技股份有限公司 <span>Gamesofa Inc. All Rights Reserved. 本遊戲為免費使用，遊戲內另提供購買虛擬遊戲幣、物品等付費服務。請注意遊戲時間，避免沉迷。</span></p>
+    <!-- 分級 icon --> 
+    <img src="http://g.mwsrv.com/images/topmenu_footer/level_12.png?2" class="Level" width="47" height="47"> 
+    <!-- 分級 icon --> 
+    </div>
+</div>
+<!--footer End -->
+<link rel="stylesheet" href="css/jquery-popover-0.0.3.css">
+<script src="js/jquery-popover-0.0.3.js"></script>
+<script type="text/javascript">
+$('[data-role="popover"]').popover();
+</script>
+
+<script src="js/dust.js"></script>
+</body>
+</html>
